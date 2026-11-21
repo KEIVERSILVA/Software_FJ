@@ -1,0 +1,18 @@
+2026-11-21 12:28:46 | INFO | Cliente registrado: C001 - Laura Gomez
+2026-11-21 12:28:46 | INFO | Cliente registrado: C002 - Carlos Ruiz
+2026-11-21 12:28:46 | ERROR | [ERR_DATO_INVALIDO] El formato del correo electrónico no es válido. | Detalles: {'campo': 'correo', 'valor': 'correo_sin_arroba'}
+2026-11-21 12:28:46 | INFO | Servicio registrado: S001 - Sala Juntas Norte
+2026-11-21 12:28:46 | INFO | Servicio registrado: S002 - Portatil Gamer
+2026-11-21 12:28:46 | INFO | Servicio registrado: S003 - Consultoria Cloud
+2026-11-21 12:28:46 | ERROR | [ERR_DATO_INVALIDO] La tarifa base debe ser mayor a cero.
+2026-11-21 12:28:46 | INFO | Reserva R001 creada en estado PENDIENTE.
+2026-11-21 12:28:46 | INFO | Reserva R001 confirmada.
+2026-11-21 12:28:46 | INFO | Reserva R001 procesada por $337,365.00.
+2026-11-21 12:28:46 | ERROR | [ERR_OPERACION_NO_PERMITIDA] No se puede cancelar la reserva R001 porque ya fue procesada.
+2026-11-21 12:28:46 | ERROR | [ERR_DATO_INVALIDO] Una sala no se puede reservar por más de 12 horas seguidas.
+2026-11-21 12:28:46 | ERROR | [ERR_RESERVA_INVALIDA] No se pudo crear la reserva 'R002': Una sala no se puede reservar por más de 12 horas seguidas.
+2026-11-21 12:28:46 | INFO | Reserva R003 creada en estado PENDIENTE.
+2026-11-21 12:28:46 | INFO | Reserva R003 cancelada.
+2026-11-21 12:28:46 | ERROR | [ERR_SERVICIO_NO_DISPONIBLE] El servicio 'Consultoria Cloud' no está disponible.
+2026-11-21 12:28:46 | ERROR | [ERR_RESERVA_INVALIDA] No se pudo crear la reserva 'R004': El servicio 'Consultoria Cloud' no está disponible.
+2026-11-21 12:28:46 | ERROR | [ERR_CALCULO_INCONSISTENTE] El descuento debe estar entre 0 y 99.
